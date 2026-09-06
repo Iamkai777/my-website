@@ -43,8 +43,6 @@ It serves as a central place where universities and collaborators can explore my
 my-website/ ├── index.html ├── style.css ├── myphoto.png ├──  README.md
 ## 🧑‍💻 Author
 
-Kai
-
 * **GitHub:** https://github.com/iamkai777
 * **Portfolio:** https://iamkai777.github.io/my-website/
 
