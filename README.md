@@ -5,13 +5,6 @@ Designed and developed to showcase my projects, automation tools, achievements, 
 🌐 **Live Website:**
 [https://iamkai777.github.io/my-website/](https://iamkai777.github.io/my-website/)
 
----
-
-## 📷 Preview
-
-<img src="myphoto.png" alt="Portfolio Preview" width="100%" />
-
----
 
 ## 📖 About
 
