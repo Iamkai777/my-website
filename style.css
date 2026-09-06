@@ -1,0 +1,215 @@
+/* Базовые стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0f0f11;
+    color: #e1e1e6;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Навигация */
+header {
+    background-color: #161618;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #2c2c2e;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+/* Hero секция */
+.home-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.badge {
+    background-color: #2c2c2e;
+    color: #ffd700;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.home-text h1 {
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.home-text h2 {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.home-buttons {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.primary-btn {
+    background-color: #ffd700;
+    color: #000;
+}
+
+.secondary-btn {
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.home-image {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Сетка карточек */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color: #18181c;
+    border: 1px solid #2a2a2e;
+    padding: 30px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ffd700;
+}
+
+.card i {
+    font-size: 30px;
+    color: #ffd700;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.project-links {
+    margin-top: 15px;
+}
+
+.link-btn {
+    background-color: #2a2a2e;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 12px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #161618;
+    border-top: 1px solid #2c2c2e;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-links {
+        display: none; /* Для упрощения структуры без JS */
+    }
+}
