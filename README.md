@@ -29,7 +29,7 @@ It serves as a central place where universities and collaborators can explore my
 
 * HTML5
 * CSS3
-* Python
+
 
 ---
 
@@ -40,8 +40,6 @@ It serves as a central place where universities and collaborators can explore my
 ---
 
 ## 📁 Repository Structure
-
-```text
 my-website/ ├── index.html ├── style.css ├── myphoto.png ├──  README.md
 ## 🧑‍💻 Author
 
@@ -51,3 +49,4 @@ Kai
 * **Portfolio:** https://iamkai777.github.io/my-website/
 
 ⭐ *If you like this project, consider giving it a star!*
+
