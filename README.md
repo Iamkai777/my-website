@@ -1,22 +1,48 @@
-# Personal Cybersecurity & Web Portfolio
+# 🌐 Personal Cybersecurity & Web Portfolio
 
-Welcome to my personal portfolio repository! This site showcases my projects, community leadership, and technical skills in IT and Cybersecurity for university application purposes.
+Designed and developed to showcase my technical foundation, hands-on projects, and academic readiness for studying Cybersecurity.
 
-## 🚀 Key Projects & Initiatives
-
-### 1. Educational TV Initiative (Korean Language & Culture)
-* Hosted a nationwide TV educational project reaching 10,000+ viewers, presenting content on Korean language and culture.
-* Invited and interviewed Korean professors in Tashkent to discuss educational quality and academic opportunities in South Korea.
-* Demonstrated strong cross-cultural communication, public speaking, and project management skills.
-
-### 2. Exhibition of Korean Universities
-* Served as a volunteer coordinator, managing communication between international delegates and local students.
-* Handled real-time problem solving and cross-platform coordination.
-
-### 3. TOPIK Hunter Community
-* Founded and lead a non-profit educational community empowering over 3,000 learners.
-* Integrated custom Python Telegram bots for workflow automation.
-* Applied official Cybersecurity Protection Protocols (Uzbekistan MIA guidelines) to defend subscribers against phishing, malicious links, and cyber fraud.
+🌐 **Live Website:** [https://iamkai777.github.io/my-website/](https://iamkai777.github.io/my-website/)
 
 ---
-🌐 **Live Website:** [iamkai777.github.io/my-website](https://iamkai777.github.io/my-website/)  
+
+## 📖 About
+This portfolio presents my academic goals, practical core Web/Security skills, and community projects while preparing for a Bachelor's Degree in Cybersecurity. It serves as a transparent, clean representation of my foundational understanding of web structures, automation, and security concepts.
+
+---
+
+## 🛠️ Key Projects Featured
+* **TOPIK Hunter Community:** Founded and lead an educational non-profit (3,000+ members) providing free courses. 
+* **Python Automation & Security:** Integrated custom Python Telegram bots for content delivery and embedded official Anti-Phishing protection protocols to safeguard user data.
+
+---
+
+## ⚡ Features
+* 🎯 **Clean Code:** Hand-written pure HTML5 and CSS3 without heavy frameworks.
+* 📱 **Responsive Design:** Mobile-friendly layout using Flexbox & Grid.
+* 🌙 **Dark Mode Aesthetic:** Professional dark interface designed for readability.
+* 🔒 **Security Foundation:** Organized structure ready for security audits and optimizations.
+
+---
+
+## 🛠️ Technologies
+* **HTML5** (Semantic Structure)
+* **CSS3** (Flexbox, Grid, Custom Properties)
+* **Python** (Automation & Telegram Bot Development)
+
+---
+
+## 📁 Repository Structure
+```text
+my-website/
+├── index.html
+├── style.css
+├── myphoto.png
+├── README.md
+👤 Author
+
+GitHub: iamkai777
+
+Portfolio: Live Site
+
+⭐ If you find this project interesting, feel free to give it a star!
